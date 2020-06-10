@@ -20,7 +20,7 @@ public class Handler implements Runnable {
                 try {
                     line += streamIn.readUTF();
                     System.out.println(line);
-                    if (line.contains("bye")) {
+                    if (line.contains("over")) {
                         done = true;
                         break;
                     }
